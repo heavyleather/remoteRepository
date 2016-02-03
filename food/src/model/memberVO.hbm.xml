@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016/1/17 ?U?? 08:25:33 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="model.memberVO" table="MEMBERVO">
+        <id name="member_ID" type="java.lang.String">
+            <column name="MEMBER_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="acc_email" type="java.lang.String">
+            <column name="ACC_EMAIL" />
+        </property>
+        <property name="pwd" type="java.lang.String">
+            <column name="PWD" />
+        </property>
+        <property name="member_photo" type="java.lang.String">
+            <column name="MEMBER_PHOTO" />
+        </property>
+        <property name="gender" type="boolean">
+            <column name="GENDER" />
+        </property>
+        <property name="tel" type="java.lang.String">
+            <column name="TEL" />
+        </property>
+        <property name="GUAR_CT" type="java.lang.String">
+            <column name="GUAR_CT" />
+        </property>
+        <property name="GUAR_AR" type="java.lang.String">
+            <column name="GUAR_AR" />
+        </property>
+        <property name="NB_CODE" type="java.lang.String">
+            <column name="NB_CODE" />
+        </property>
+        <property name="GUAR_NO" type="java.lang.String">
+            <column name="GUAR_NO" />
+        </property>
+        <property name="email2" type="java.lang.String">
+            <column name="EMAIL2" />
+        </property>
+        <property name="cel" type="java.lang.String">
+            <column name="CEL" />
+        </property>
+        <property name="insdate" type="java.sql.Date">
+            <column name="INSDATE" />
+        </property>
+    </class>
+</hibernate-mapping>
